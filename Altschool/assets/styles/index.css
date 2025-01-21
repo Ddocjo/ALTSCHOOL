@@ -1,0 +1,25 @@
+:root{
+    --color-1 : gray;
+    --bg-color : #fafafa;
+}
+
+
+
+/* Element Selector */
+p {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/* ID selector */
+#footer-p {
+    font-size: 10px;
+    color: black;
+}
+
+/* class selector*/
+.title {
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: underline;
+}

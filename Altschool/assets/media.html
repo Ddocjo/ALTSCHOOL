@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="./index.html">Home</a>
+        </nav>
+    </header>
+
+    <section>
+        <h4>My Audio</h4>
+        <br>
+        <audio controls>
+            <source src="../assets/audio/audio.mp3" type="audio/mp3">
+          </audio>
+    </section>
+
+    <section>
+        <h4>My Video</h4>
+        <br>
+        <video controls width="640" height="360" poster="../assets/Image/altschool-ID-Card.png">
+            <source src="../assets/Video/Screen_Recording_20240111_002941_Instagram.mp4" type="video/mp4">
+          </video>          
+    </section>
+
+    <section>
+        <h4>My Image</h4>
+        <br>
+        <picture>
+            <source srcset="../assets/Image/pic.JPG" media="(max-width: 600px)">
+            <source srcset="../assets/Image/pic.JPG" media="(min-width: 601px) and (max-width: 1024px)">
+            <source srcset="../assets/Image/pic.JPG" media="(min-width: 1025px)">
+            <img src="../assets/Image/pic.JPG" alt="My Image">
+          </picture>
+                    
+    </section>
+
+</body>
+</html>
